@@ -1,0 +1,53 @@
+package AdvChartD7;
+
+{$R *.res}
+{$R 'AdvChartViewReg.dcr'}
+{$ALIGN 8}
+{$ASSERTIONS ON}
+{$BOOLEVAL OFF}
+{$DEBUGINFO ON}
+{$EXTENDEDSYNTAX ON}
+{$IMPORTEDDATA ON}
+{$IOCHECKS ON}
+{$LOCALSYMBOLS ON}
+{$LONGSTRINGS ON}
+{$OPENSTRINGS ON}
+{$OPTIMIZATION ON}
+{$OVERFLOWCHECKS OFF}
+{$RANGECHECKS OFF}
+{$REFERENCEINFO ON}
+{$SAFEDIVIDE OFF}
+{$STACKFRAMES OFF}
+{$TYPEDADDRESS OFF}
+{$VARSTRINGCHECKS ON}
+{$WRITEABLECONST OFF}
+{$MINENUMSIZE 1}
+{$IMAGEBASE $400000}
+{$DESCRIPTION 'TMS VCL Chart'}
+{$IMPLICITBUILD OFF}
+
+requires
+  rtl,
+  vcl,
+  dbrtl;
+
+contains
+  AdvChart in 'AdvChart.pas',
+  AdvChartView in 'AdvChartView.pas',
+  AdvChartXPVS in 'AdvChartXPVS.pas',
+  AdvChartGDIP in 'AdvChartGDIP.pas',
+  AdvChartViewGDIP in 'AdvChartViewGDIP.pas',
+  AdvChartViewReg in 'AdvChartViewReg.pas',
+  dbadvchartview in 'dbadvchartview.pas',
+  DBAdvChartViewGDIP in 'DBAdvChartViewGDIP.pas',
+  DBAdvChartViewGDIPReg in 'DBAdvChartViewGDIPReg.pas',
+  dbadvchartviewReg in 'dbadvchartviewReg.pas',
+  AdvChartView3D in 'AdvChartView3D.pas',
+  AdvChartView3DReg in 'AdvChartView3DReg.pas',
+  AdvOpenGLControl in 'AdvOpenGLControl.pas',
+  AdvOpenGLEXT in 'AdvOpenGLEXT.pas',
+  AdvOpenGLUT in 'AdvOpenGLUT.pas',
+  AdvOpenGLX in 'AdvOpenGLX.pas',
+  AdvOpenGLUtil in 'AdvOpenGLUtil.pas';
+
+end.

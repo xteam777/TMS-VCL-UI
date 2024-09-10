@@ -1,0 +1,55 @@
+package advchartdedXE3;
+
+{$R *.res}
+{$IFDEF IMPLICITBUILDING This IFDEF should not be used by users}
+{$ALIGN 8}
+{$ASSERTIONS ON}
+{$BOOLEVAL OFF}
+{$DEBUGINFO ON}
+{$EXTENDEDSYNTAX ON}
+{$IMPORTEDDATA ON}
+{$IOCHECKS ON}
+{$LOCALSYMBOLS ON}
+{$LONGSTRINGS ON}
+{$OPENSTRINGS ON}
+{$OPTIMIZATION OFF}
+{$OVERFLOWCHECKS OFF}
+{$RANGECHECKS OFF}
+{$REFERENCEINFO ON}
+{$SAFEDIVIDE OFF}
+{$STACKFRAMES ON}
+{$TYPEDADDRESS OFF}
+{$VARSTRINGCHECKS ON}
+{$WRITEABLECONST OFF}
+{$MINENUMSIZE 1}
+{$IMAGEBASE $400000}
+{$DEFINE DEBUG}
+{$ENDIF IMPLICITBUILDING}
+{$DESCRIPTION 'TMS VCL Chart Designtime'}
+{$IMPLICITBUILD OFF}
+
+requires
+  rtl,
+  designide,
+  advchartdXE3;
+
+contains
+  AdvChartAnnotationEditor in 'AdvChartAnnotationEditor.pas',
+  AdvChartAnnotationEditorGDIP in 'AdvChartAnnotationEditorGDIP.pas',
+  AdvChartFillPreview in 'AdvChartFillPreview.pas',
+  AdvChartPaneEditor in 'AdvChartPaneEditor.pas',
+  AdvChartPaneEditorGDIP in 'AdvChartPaneEditorGDIP.pas',
+  AdvChartPointEditor3D in 'AdvChartPointEditor3D.pas',
+  AdvChartSelectors in 'AdvChartSelectors.pas',
+  AdvChartSerieEditor in 'AdvChartSerieEditor.pas',
+  AdvChartSerieEditor3D in 'AdvChartSerieEditor3D.pas',
+  AdvChartSerieEditorGDIP in 'AdvChartSerieEditorGDIP.pas',
+  AdvChartspin in 'AdvChartspin.pas',
+  AdvChartSplash in 'AdvChartSplash.pas',
+  AdvChartTypeSelector in 'AdvChartTypeSelector.pas',
+  AdvChartView3DDE in 'AdvChartView3DDE.pas',
+  AdvChartView3DRegDE in 'AdvChartView3DRegDE.pas',
+  AdvChartViewDE in 'AdvChartViewDE.pas',
+  AdvChartViewRegDE in 'AdvChartViewRegDE.pas';
+
+end.

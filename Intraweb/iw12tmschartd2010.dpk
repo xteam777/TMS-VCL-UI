@@ -1,0 +1,48 @@
+package iw12tmschartd2010;
+
+{$R *.res}
+{$R 'IWAdvChartReg.dcr'}
+{$R 'IWDBAdvChartReg.dcr'}
+{$ALIGN 8}
+{$ASSERTIONS ON}
+{$BOOLEVAL OFF}
+{$DEBUGINFO ON}
+{$EXTENDEDSYNTAX ON}
+{$IMPORTEDDATA ON}
+{$IOCHECKS ON}
+{$LOCALSYMBOLS ON}
+{$LONGSTRINGS ON}
+{$OPENSTRINGS ON}
+{$OPTIMIZATION ON}
+{$OVERFLOWCHECKS OFF}
+{$RANGECHECKS OFF}
+{$REFERENCEINFO ON}
+{$SAFEDIVIDE OFF}
+{$STACKFRAMES OFF}
+{$TYPEDADDRESS OFF}
+{$VARSTRINGCHECKS ON}
+{$WRITEABLECONST OFF}
+{$MINENUMSIZE 1}
+{$IMAGEBASE $400000}
+{$DESCRIPTION 'TMS Advanced Chart for IntraWeb'}
+{$IMPLICITBUILD ON}
+
+requires
+  rtl,
+  vcl,
+  vclimg,
+  dbrtl,
+  advchartd2010,
+  advchartded2010,
+  dclIntraweb_120_140,
+  Intraweb_120_140;
+
+contains
+  IWAdvChartReg in 'IWAdvChartReg.pas',
+  IWAdvChart in 'IWAdvChart.pas',
+  IWAdvChartDE in 'IWAdvChartDE.pas',
+  IWDBAdvChart in 'IWDBAdvChart.pas',
+  IWDBAdvChartDE in 'IWDBAdvChartDE.pas',
+  IWDBAdvChartReg in 'IWDBAdvChartReg.pas';
+
+end.

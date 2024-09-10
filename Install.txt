@@ -1,0 +1,32 @@
+
+      ////////////////////////////////////////////////// 
+      //   I M P O R T A N T    R E M A R K  !!!!!    //
+      //                                              //  
+      //  For a successful install of the components, //
+      //       follow  A L L  steps below             //
+      //                                              //   
+      //////////////////////////////////////////////////
+
+
+Automatic installation
+-----------------------------------------
+
+ Unzip the distribution file AdvChartSetup.zip into a separate directory,
+ further referred to as {$TMSDIR} 
+
+ Run the setup executable file and install the components for the correct environment.
+
+ If the setup fails follow the manual installation instructions below.
+
+
+Manual installation
+-----------------------------------------
+
+  For Delphi 7, 2007, 2009, 2010, XE, XE2, XE3, XE4, XE5, XE6, XE7, XE8, 10 Seattle, 10.1 Berlin, 10.2 Tokyo, 10.3 Rio, 10.4 Sydney, 11
+  -------------------------------------------------------------------------------------------------------------------------------------
+
+  In the IDE, select File, Open and browse for AdvChartD*.dproj
+  From the project manager, right click on the AdvChartD*.dproj project and from the menu, choose install
+
+  In the IDE, select File, Open and browse for AdvChartDED*.dproj
+  From the project manager, right click on the AdvChartDED*.dproj project and from the menu, choose install
